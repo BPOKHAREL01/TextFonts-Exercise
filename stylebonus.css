@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body { 
+    font-family: 'Orbitron', sans-serif;
+    
+}
+/* :root also works ot html{} also works*/
+    span {
+        font-weight: bold;
+    }
+    h1 {
+      font-size: 50px; letter-spacing: 10px; text-align: center; text-transform: uppercase ; text-decoration: underline;
+    }
+    
+    #series-movies {
+        font-size: 20px;
+    }
+    h2 {
+      font-size: 2.500em;
+    }
+    li {
+       line-height: 2; 
+    }
+
+    #characters {
+        font-size: 18px;
+    }
+    h4 {
+        letter-spacing: 15px;
+    }
+    h4  {
+        font-family: 'Press Start 2P', cursive;
+    }
+    h4 , h3 , h2 {
+        text-align: center;
+    }
+    li {
+        font-size: 1rem;
+    } 
+    body {
+        background-image:url(starTrek.jpg) ; background-position: center;background-size: cover;
+        color: rgba(255, 255, 255, 0.6);
+        background-attachment: fixed;
+    }
+    /* background attachment:fixed works for keeping the background stable while moving the other elements*/
